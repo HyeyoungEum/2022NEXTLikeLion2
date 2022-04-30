@@ -1,0 +1,42 @@
+.blogtitle{
+    background-color: pink;
+    width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.blogtitle h1 {
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    width: 1400px;
+    height:50px;
+    font-size: 20px;
+    padding-top:20px;
+    background-color: rgb(255, 239, 242);
+}
+.write {
+    width:1400px;
+    height:50px;
+    background-color: rgb(242, 255, 184);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.all {
+    background-color: rgb(205, 205, 205);
+    width: 1400px;
+    height:50px;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    padding-top:2px;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/new" method="post">
+        {% csrf_token %}
+        <main>
+            <h2>무엇을 기록해볼까?</h2>
+            <div class="title">제목 :
+                <input type="text" name="title" placeholder="제목을 입력하세요"/>
+            </div>
+            <br/>
+            <div class="categorie">카테고리 :
+                <select name="category">
+                    <option value="hobby">hobby</option>
+                    <option value="food">food</option>
+                    <option value="programming">programming</option>
+                </select>
+            </div>
+            <br/>
+            <div class="content">
+                <textarea id=area name="content" cols="30" rows="10" placeholder="내용을 입력하세요"></textarea>
+                <br/>
+                <button type="submit"> 저장하기</button>
+            </div>
+        </main>
+    </form>
+</body>
+</html>
